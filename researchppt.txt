@@ -1,0 +1,63 @@
+Hello Everyone. I am Anupam Banerjee, a Master of Data Science Student at Deakin University. Welcome 
+to my research presentation on the Topic - Benefits of Chatbot based AI solutions for Businesses: 
+ROI on Chatbots using Monte Carlo simulations. 
+
+I was interested in knowing how much profit does a chatbot project make in its life cycle
+which is complex question and most research on estimation of the return on investment is 
+calculated using static formula based approaches equating components like efforts, duration, benefits, 
+costs etc. The problem with these approaches is that software development life cycle is full of 
+uncertainities. Therefore, through my Research I am proposing a noval way of including uncertainities
+in calculation and estimation of Return on Investment on Chatbot Applications. 
+
+In absence of any relevant dataset available in public domain, I have created a dummy dataset using
+python that is loosely based on the SEERA dataset for software cost estimation. Our dummy dataset 
+extensively records 48 different features related to life cycle of a chatbot application. These 
+features can be easily gathered from managers using the methods of online surveys and interviews.
+
+Here is a screenshot of the first 5 rows of the dataset out of 1000 simulated rows.
+
+Some of the most important features for estimating the are given: 
+
+In order to generate simulated data related to software life cycle and incorporating the 
+uncertainity I have used Monte Carlo Simulation which provide a range of outcomes and their 
+associated probabilities hence providing more accurate results. This technique is widely used 
+simulating uncertainity for quantitative analysis.
+
+Monte carlo simulation is based on the following theoram which suggest the commulitive distribution
+function of random variable X has the same distribution as F-1 U where U is a uniform random variable
+between 0 and 1. 
+
+For simplicity I have used beta and normal distribution for simulating various numerical features 
+and weighted random choices categorical data. 
+
+The visualization here shows the generated features using this technique. 
+
+I have also introduced correlations between related features for more realistic results like projects
+duration and project cost as they are not independant of each other. 
+
+This slide shows the visualization of correlation amoung features.
+
+Once the Dataset is generated and qualitative and quantitative features are calculated, I have converted 
+categorical data using one hot encoding. After that the Dataset is ready to be fed into a supervised
+machine Learning Algorithm for estimation of ROI and classification of projects into profitable or
+non profitable. 
+
+I have used decision tree, random forest and Support vector Machine for supervised learning. The best 
+results are shown by decision tree and Random forest. 
+
+I have evaluated the results using evaluation matrix like confusion matrix, accuracy, presion and 
+recall that essentially compares the True and False positive to the total outcomes to indicate 
+effectiveness of the algorithm. 
+
+The framework proposed provide and extensive way of evaluating Return on Investment for chatbot 
+projects and can be customized for other AI application life cycle. The data collection using the 
+above schema of features is an iterative process and will involve adding more features and discarding
+others. 
+
+Thats all from my side. Hope you like this presentation. Thankyou
+
+
+
+
+ 
+
