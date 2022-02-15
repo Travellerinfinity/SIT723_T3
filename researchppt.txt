@@ -28,7 +28,7 @@ function of random variable X has the same distribution as F-1 U where U is a un
 between 0 and 1. 
 
 For simplicity I have used beta and normal distribution for simulating various numerical features 
-and weighted random choices categorical data. 
+and weighted random choices for categorical data. 
 
 The visualization here shows the generated features using this technique. 
 
